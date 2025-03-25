@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+.header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.App{
+    height: 100vh;
+    width: 95%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Poppins;
+}
+.title{
+    font-weight: 700;
+}
+.slider{
+    width: 100%;
+}
+.labels{
+    display: flex;
+    justify-content: space-between;
+}
+.tenureContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.tenure{
+    width: 15%;
+    height: 50px;
+    border: none;
+    border-radius: 100px;
+    background-color: rgb(186, 186, 186);
+}
+.selected{
+    background-color: #009ad6;
+    color: white;
+}
+.flexer{
+    display: flex;
+    gap: 20px;
+}
