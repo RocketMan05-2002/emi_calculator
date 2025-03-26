@@ -56,7 +56,7 @@ const App = () => {
   };
 
   return (
-    <div className="App">
+    <div className="App gradient__bg">
       <div className="header">
         <span className="title" style={{ fontSize: 30, marginTop: 10 }}>
           EMI Calculator
